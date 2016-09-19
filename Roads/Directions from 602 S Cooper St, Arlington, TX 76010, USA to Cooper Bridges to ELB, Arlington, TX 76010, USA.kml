@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Directions from 602 S Cooper St, Arlington, TX 76010, USA to Cooper Bridges to ELB, Arlington, TX 76010, USA</name>
+		<Placemark>
+			<name>Directions from 602 S Cooper St, Arlington, TX 76010, USA to Cooper Bridges to ELB, Arlington, TX 76010, USA</name>
+			<styleUrl>#line-1267FF-5-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-97.11193,32.73114,0.0 -97.11214000000001,32.73115,0.0 -97.11323,32.73116000000001,0.0 -97.11323,32.73125,0.0 -97.11321,32.73157,0.0 -97.11370000000001,32.73158,0.0 -97.11383,32.73158,0.0 -97.11370000000001,32.73158,0.0 -97.11321,32.73157,0.0 -97.1132,32.73163,0.0 -97.11319,32.73182,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>602 S Cooper St, Arlington, TX 76010, USA</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>-97.1119308,32.7311441,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cooper Bridges to ELB, Arlington, TX 76010, USA</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>-97.1131923,32.7318183,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-1267FF-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-1267FF-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-1267FF-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-1267FF-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-1267FF-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

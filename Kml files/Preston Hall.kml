@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Preston Hall.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Preston Hall</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-97.11312846115929,32.73095547149487,0 -97.11313234440785,32.73078699826323,0 -97.1129320843073,32.73078321506944,0 -97.11293332241525,32.7307541913275,0 -97.1129479565131,32.73074737424777,0 -97.11295677866538,32.73073395845209,0 -97.1129581458283,32.73071907327774,0 -97.11295596438625,32.73070762784241,0 -97.11295013205594,32.7306946843532,0 -97.1129407930421,32.73068348193929,0 -97.11292263946582,32.73067718128443,0 -97.11290102203404,32.73067568800331,0 -97.11288302240217,32.73067576965285,0 -97.11286680517557,32.73067903016701,0 -97.11285403674937,32.7306967614852,0 -97.11284659405936,32.73071307581586,0 -97.11284455640382,32.73073122943573,0 -97.11285547633629,32.73074788254322,0 -97.11287398796215,32.73075452278377,0 -97.11288886545263,32.73076121462886,0 -97.11288521067178,32.73077832940357,0 -97.1128589757043,32.73078194713996,0 -97.1126838471308,32.73078657142609,0 -97.11267276313556,32.73085988970727,0 -97.11263618169595,32.73085654458644,0 -97.11263375286931,32.73073577783706,0 -97.11260034023394,32.730735994379,0 -97.11260680744266,32.7308995876389,0 -97.11263441374227,32.73089933273677,0 -97.11263571678329,32.7308842928934,0 -97.11268247017233,32.73088760119522,0 -97.11267032906133,32.73094699872149,0 -97.11286392661773,32.73095475950399,0 -97.11287390147692,32.73097041570492,0 -97.11294210184219,32.73097161268576,0 -97.11294358584578,32.73095000231083,0 -97.11312846115929,32.73095547149487,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

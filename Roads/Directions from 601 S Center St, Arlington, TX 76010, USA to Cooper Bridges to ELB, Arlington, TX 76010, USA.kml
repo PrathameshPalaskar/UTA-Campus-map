@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Directions from 601 S Center St, Arlington, TX 76010, USA to Cooper Bridges to ELB, Arlington, TX 76010, USA</name>
+		<Placemark>
+			<name>Directions from 601 S Center St, Arlington, TX 76010, USA to Cooper Bridges to ELB, Arlington, TX 76010, USA</name>
+			<styleUrl>#line-1267FF-5-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>-97.10724,32.73108,0.0 -97.10753,32.73109,0.0 -97.10875,32.7311,0.0 -97.10919000000001,32.73111,0.0 -97.10989000000001,32.7311,0.0 -97.11051,32.73111,0.0 -97.11077,32.73111,0.0 -97.11102,32.731120000000004,0.0 -97.11111,32.731120000000004,0.0 -97.11171,32.73114,0.0 -97.11186,32.73114,0.0 -97.11214000000001,32.73115,0.0 -97.11217,32.73162,0.0 -97.11218,32.73181000000001,0.0 -97.11215,32.7321,0.0 -97.11243,32.73209,0.0 -97.11284,32.7321,0.0 -97.11279,32.73199,0.0 -97.11278,32.73197,0.0 -97.11277,32.73194000000001,0.0 -97.11277,32.73191,0.0 -97.11278,32.73188,0.0 -97.11279,32.73185,0.0 -97.11282,32.73181000000001,0.0 -97.11285,32.731770000000004,0.0 -97.1129,32.73172,0.0 -97.11294,32.73169,0.0 -97.11297,32.73167,0.0 -97.11301,32.73166,0.0 -97.11306,32.73165,0.0 -97.1132,32.73163,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>601 S Center St, Arlington, TX 76010, USA</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>-97.1072428,32.7310842,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Cooper Bridges to ELB, Arlington, TX 76010, USA</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>-97.1132042,32.7316301,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-1267FF-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-1267FF-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-1267FF-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-1267FF-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-1267FF-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

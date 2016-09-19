@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Directions from 101-169 UTA Blvd.kml</name>
+	<StyleMap id="line-1267FF-5-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-1267FF-5-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-1267FF-5-nodesc-highlight0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-1267FF-5-nodesc-highlight0">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-1267FF-5-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Directions from 101-169 UTA Blvd, Arlington, TX 76010, USA to 425 S Oak St, Arlington, TX 76010, USA</name>
+		<styleUrl>#line-1267FF-5-nodesc</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-97.10724999999999,32.73374,0 -97.10719,32.73374,0 -97.10719999999999,32.73359,0 -97.10720999999998,32.73298,0 -97.10723,32.73228,0 -97.10722,32.73204,0 -97.10817,32.73205,0 -97.10872999999999,32.73207,0 -97.10872999999999,32.73265,0 -97.10872000000001,32.73295,0 -97.10871,32.73311,0 -97.10871,32.73334,0 -97.10870000000001,32.73345,0 -97.10868000000001,32.73354,0 -97.10864999999998,32.73362,0 -97.10862,32.73374,0 -97.10919,32.73375,0 -97.10964999999999,32.73373,0 -97.10966000000001,32.73365,0 -97.10966000000001,32.73359,0 -97.10968,32.73354,0 -97.10972,32.73348,0 -97.10976000000001,32.73341,0 -97.10980000000002,32.73336,0 -97.10983,32.73331,0 -97.10984000000001,32.73328,0 -97.10984999999999,32.73325,0 -97.10984999999999,32.73323,0 -97.10984999999999,32.73321,0 -97.10986,32.73314,0 -97.10986,32.73302,0 -97.10986,32.73291,0 -97.10986999999999,32.73251,0 -97.10986999999999,32.73207,0 -97.10930000000002,32.73207,0 -97.10929,32.73233,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

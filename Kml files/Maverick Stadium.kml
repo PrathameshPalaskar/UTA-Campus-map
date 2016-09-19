@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Maverick Stadium.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Maverick Stadium</name>
+		<LookAt>
+			<longitude>-97.12456682678369</longitude>
+			<latitude>32.72992193308803</latitude>
+			<altitude>0</altitude>
+			<heading>-0.004079829058053344</heading>
+			<tilt>36.88587726151575</tilt>
+			<range>695.5598633875474</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-97.12683281477409,32.7300741739441,0 -97.1268383382737,32.72952536594691,0 -97.12752935777412,32.72952527992524,0 -97.12752185797544,32.72893799495092,0 -97.12685783337251,32.72894332927328,0 -97.12684373858268,32.72842866258308,0 -97.12624757874274,32.7284194246883,0 -97.12599869376572,32.72863906226803,0 -97.12596408665446,32.72891725605535,0 -97.12569355295152,32.72893298316911,0 -97.12570415139683,32.72951359696886,0 -97.12592854971241,32.72951952044214,0 -97.12597685099625,32.72980161696123,0 -97.12615304151458,32.7299948103219,0 -97.12630018104041,32.7300542588009,0 -97.12648788908,32.73006088698108,0 -97.12683281477409,32.7300741739441,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
